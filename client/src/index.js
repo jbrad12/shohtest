@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import SnowApp from './SnowApp';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SnowApp/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
